@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Calculadora NODEJS</title>
+</head>
+
+<body>
+  <form action="" method="post">
+    <div class="row">
+      <div class="card" style="width: 28rem; margin: 5% 5% 0 10%; gap: 20px;">
+        <h1>Calculadora</h1>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Número 1</span>
+          <input type="number" id="num1" name="num1" class="form-control">
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Número 2</span>
+          <input type="number" id="num2" name="num2" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button class="btn btn-primary" id="operador" name="operador" value="suma">Sumar</button>
+        <button class="btn btn-danger" id="operador" name="operador" value="resta">Restar</button>
+        <button class="btn btn-success" id="operador" name="operador" value="multiplicar">Multiplicar</button>
+        <button class="btn btn-warning" id="operador" name="operador" value="dividir">Dividir</button>
+        <p id="result"></p>
+      </div>
+
+      <div class="card" style="width: 28rem; margin: 5% 5% 0 10%; gap: 20px;">
+        <h1>Mod Programador</h1>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Ingrese un Decimal</span>
+          <input type="number" id="decimal" name="decimal" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Ingrese un Binario</span>
+          <input type="number" id="binario" name="binario" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Ingrese un Hexadecimal</span>
+          <input type="text" id="hexadecimal" name="hexadecimal" class="form-control">
+        </div>
+
+        <button class="btn btn-outline-primary" id="operador" name="operador" value="decimal">Covetir Decimal</button>
+        <button class="btn btn-outline-warning" id="operador" name="operador" value="binario">Covetir Binario</button>
+        <button class="btn btn-outline-success" id="operador" name="operador" value="hexadecimal">Covetir Hexadecimal</button>
+
+        <p id="result-pro"></p>
+        <p id="result-pro1"></p>
+      </div>
+
+    </div>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
