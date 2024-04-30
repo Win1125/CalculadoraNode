@@ -13,7 +13,7 @@ import {
   binaryToHexadecimal,
   hexadecimalToDecimal,
   hexadecimalToBinary
-} from './operaciones.js';
+} from './model.js';
 
 const app = express();
 
@@ -23,7 +23,7 @@ const __dirname = path.dirname(__filename);
 app.use(urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/view.html');
 })
 
 app.post('/', (req, res) => {
